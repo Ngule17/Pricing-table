@@ -1,0 +1,180 @@
+*{
+	margin: 0;
+	box-sizing: border-box;
+}
+body, html{
+	font-family: roboto, sans-serif;
+}
+
+
+h2{
+	text-transform: uppercase;
+	color: white;
+	font-size: 40px;
+	letter-spacing: 1px;
+	font-weight: 300;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/gym.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+section{
+	
+	max-width: 1000px;
+	margin: 0 auto;
+
+}
+.row{
+
+}
+
+span.fifteen{
+	font-size: 50px;
+	font-weight: 500;
+	font-family: sans-serif;
+}
+
+h3{
+	text-transform: uppercase;
+	font-size: 22px;
+	letter-spacing: 1px;
+	text-align: center;
+	color: aliceblue;
+	padding-top: 40px;
+	font-weight: 400;
+}
+
+.golden-top{
+	background-color: #FF0000;
+	width: 100%;
+	height: 150px;
+
+}
+
+.golden-top1{
+	background-color: #4169E1;
+	width: 100%;
+	height: 150px;
+
+}
+
+.golden-top2{
+	background-color: #228B22;
+	width: 100%;
+	height: 150px;
+
+}
+
+.golden-top3{
+	background-color: #FF8C00;
+	width: 100%;
+	height: 150px;
+
+}
+
+p{
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 18px;
+	font-weight: 100;
+
+}
+
+.background-color{
+	background-color: #F8F8FF;
+	width: 100%;
+	height: 420px;
+	border-radius: 5px;
+}
+
+.together{
+	align-content: center;
+	padding-top: 200px;
+}
+
+.packages{
+	padding-top: 15px;
+}
+.packages ul{
+	list-style-image: url(img/tick.png) left center;
+	padding-left: 5px;
+}
+
+.packages ul li{
+	padding: 2px 0 0 20px;
+	list-style: none;
+}
+
+
+.packages-text {
+
+	
+}
+
+p .packages-text{
+  display: flex;
+  width: 180px;
+}
+
+p .packages-text:before {
+  content: "";
+  padding-right: 10px;
+}
+span.big-text{
+	color: #000000;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: 600;
+	text-align: left;
+	padding-left: 10px;
+}
+
+span.small-text{
+	color: #000000;
+	font-weight: 300;
+	font-size: 15px;
+
+}
+
+.button{
+	padding: 30px 0 0 65px;
+}
+
+button{
+	width: 65%;
+	height: 35px;
+	color: white;
+	font-size: 16px;
+	font-weight: 500;
+	border: solid white 1px;
+	border-radius: 5px;
+}
+
+.btn-15{
+	background-color: #FF0000;
+}
+
+.btn-20{
+	background-color: #4169E1;
+}
+
+.btn-35{
+	background-color: #228B22;
+}
+
+.btn-50{
+	background-color: #FF8C00;
+}
+
+
+li img{
+	padding-left: 0;
+}
